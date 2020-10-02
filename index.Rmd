@@ -1,0 +1,18 @@
+---
+title: "Look, it's a website!"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Sam Porter
+Made this repository
+
+#### Farnaz Safari
+Is a contributor of this repository
+
+#### Ezra Cornell
+![What a Beard!](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFwEvj3l-sAcH1ILXZbdqmIgy0GQ0zutTtvQ&usqp=CAU)
+

@@ -1,0 +1,15 @@
+output_dir: "."
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Casey"
+      href: casey.html
+    - text: "Sam"
+      href: sam.html  
+output:
+  html_document:
+    theme: simplex
+    highlight: textmate
+    toc: true 
+    toc_float: true 
