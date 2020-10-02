@@ -2,6 +2,9 @@
 title: "Farnaz"
 output: html_document
 ---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
 - Research Assistant in the Charles H. Dyson School of Applied Economics and Management at Cornell
 - Master’s degree in Finance & Applied Economics
