@@ -1,4 +1,3 @@
-output_dir: "."
 navbar:
   left:
     - text: "Home"
@@ -7,9 +6,11 @@ navbar:
       href: farnaz.html
     - text: "Sam"
       href: sam.html  
+output_dir: "."
 output:
   html_document:
     theme: superhero
     highlight: textmate
     toc: true 
     toc_float: true 
+    
