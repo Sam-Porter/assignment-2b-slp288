@@ -1,0 +1,15 @@
+output_dir: "."
+navbar:
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Farnaz"
+      href: farnaz.html
+    - text: "Sam"
+      href: sam.html  
+output:
+  html_document:
+    theme: superhero
+    highlight: textmate
+    toc: true 
+    toc_float: true 
