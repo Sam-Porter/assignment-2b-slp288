@@ -7,16 +7,30 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-My name is Sam. 
+```{r  warning=FALSE, results='hide', include=FALSE}
+# Setup for loading packages
+load.packs <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg))
+    install.packages(new.pkg, dependencies = TRUE)
+  sapply(pkg, require, character.only = TRUE)}
+#----------------------------------------------------------------.
+# Load packagess
+my.packs <- c("ggplot2", "maps")
+load.packs(my.packs)
+```
+
+
+My name is Sam. But I was born Samuel Louis Porter.
 
 + I am from Minnesota
-+ One of my favorite colors is purple. 
++ One of my favorite colors is purple 
 
 
-So we should obviously take a look at plot of MN filled with purple. 
+So, we should obviously take a look at plot of the state of Minnesota filled with purple. 
 
-```{r}
-library(ggplot2)
+```{r echo=FALSE}
+
 map.state <- map_data("state") 
 map.mn <- subset(map.state, region %in% "minnesota")
 
