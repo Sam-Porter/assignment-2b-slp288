@@ -3,13 +3,22 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+<<<<<<< HEAD
     - text: "Farnaz"
       href: farnaz.html
+=======
+    - text: "Casey"
+      href: casey.html
+>>>>>>> 69ec90c91ad9893a5facefee21ffc2df09505911
     - text: "Sam"
       href: sam.html  
 output:
   html_document:
+<<<<<<< HEAD
     theme: superhero
+=======
+    theme: simplex
+>>>>>>> 69ec90c91ad9893a5facefee21ffc2df09505911
     highlight: textmate
     toc: true 
     toc_float: true 
