@@ -3,10 +3,11 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Farnaz"
-      href: farnaz.html
     - text: "Sam"
       href: sam.html  
+    - text: "Farnaz"
+      href: farnaz.html
+      output_dir: "."
 output:
   html_document:
     theme: superhero
